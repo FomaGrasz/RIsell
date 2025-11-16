@@ -85,6 +85,7 @@ Modificali in `styles.css`:
 
 ### Layout
 è tutto modificabile in `styles.css`. la spaziatura può essere ridefinita-
+è possibile aggiungere il proprio logo aggiungendo un file chiamato 'logo.png'
 
 ## Compatibilità
 
