@@ -1,0 +1,288 @@
+{
+  "sections": [
+    {
+      "name": "Narrativa",
+      "books": [
+        {
+          "title": "The Great Gatsby",
+          "isbn": "978-0743273565",
+          "year": 1925,
+          "branch": "Classic Fiction",
+          "quality": "excellent",
+          "price": 15.99,
+          "contact": "John Doe - john@email.com - +39 333 1234567"
+        },
+        {
+          "title": "To Kill a Mockingbird",
+          "isbn": "978-0061120084",
+          "year": 1960,
+          "branch": "Classic Fiction",
+          "quality": "good",
+          "price": 12.50,
+          "contact": "Maria Rossi - maria@email.com - +39 333 2345678"
+        },
+        {
+          "title": "1984",
+          "isbn": "978-0451524935",
+          "year": 1949,
+          "branch": "Dystopian",
+          "quality": "good",
+          "price": 14.99,
+          "contact": "Anna Gallo - anna@email.com - +39 333 6789012"
+        },
+        {
+          "title": "Pride and Prejudice",
+          "isbn": "978-0141439518",
+          "year": 1813,
+          "branch": "Romance",
+          "quality": "fair",
+          "price": 11.99,
+          "contact": "Sofia Mancini - sofia@email.com - +39 333 7890123"
+        },
+        {
+          "title": "The Catcher in the Rye",
+          "isbn": "978-0316769174",
+          "year": 1951,
+          "branch": "Coming of Age",
+          "quality": "excellent",
+          "price": 16.99,
+          "contact": "Luca Rizzo - luca@email.com - +39 333 8901234"
+        },
+        {
+          "title": "Wuthering Heights",
+          "isbn": "978-0141439556",
+          "year": 1847,
+          "branch": "Gothic",
+          "quality": "good",
+          "price": 13.99,
+          "contact": "Chiara Bruno - chiara@email.com - +39 333 9012345"
+        },
+        {
+          "title": "Jane Eyre",
+          "isbn": "978-0141441146",
+          "year": 1847,
+          "branch": "Gothic Romance",
+          "quality": "excellent",
+          "price": 15.50,
+          "contact": "Giulia Rossi - giulia@email.com - +39 333 0123456"
+        },
+        {
+          "title": "The Odyssey",
+          "isbn": "978-0140262254",
+          "year": -800,
+          "branch": "Classical",
+          "quality": "fair",
+          "price": 19.99,
+          "contact": "Marco Verdi - marco@email.com - +39 333 1234567"
+        },
+        {
+          "title": "Moby Dick",
+          "isbn": "978-0142437247",
+          "year": 1851,
+          "branch": "Adventure",
+          "quality": "good",
+          "price": 17.99,
+          "contact": "Davide Nero - davide@email.com - +39 333 2345678"
+        },
+        {
+          "title": "The Adventures of Sherlock Holmes",
+          "isbn": "978-0140062014",
+          "year": 1892,
+          "branch": "Mystery",
+          "quality": "excellent",
+          "price": 14.99,
+          "contact": "Elena Costa - elena@email.com - +39 333 3456789"
+        },
+        {
+          "title": "Alice's Adventures in Wonderland",
+          "isbn": "978-0141439174",
+          "year": 1865,
+          "branch": "Fantasy",
+          "quality": "good",
+          "price": 12.99,
+          "contact": "Francesca Leone - francesca@email.com - +39 333 4567890"
+        },
+        {
+          "title": "The Picture of Dorian Gray",
+          "isbn": "978-0141442464",
+          "year": 1890,
+          "branch": "Gothic",
+          "quality": "fair",
+          "price": 13.50,
+          "contact": "Roberto Martini - roberto@email.com - +39 333 5678901"
+        },
+        {
+          "title": "Crime and Punishment",
+          "isbn": "978-0140449136",
+          "year": 1866,
+          "branch": "Psychological",
+          "quality": "good",
+          "price": 18.99,
+          "contact": "Marta Sanna - marta@email.com - +39 333 6789012"
+        },
+        {
+          "title": "War and Peace",
+          "isbn": "978-0199232765",
+          "year": 1869,
+          "branch": "Epic",
+          "quality": "excellent",
+          "price": 22.99,
+          "contact": "Antonio Russo - antonio@email.com - +39 333 7890123"
+        },
+        {
+          "title": "The Hobbit",
+          "isbn": "978-0547928227",
+          "year": 1937,
+          "branch": "Fantasy",
+          "quality": "good",
+          "price": 16.99,
+          "contact": "Valentina Caputo - valentina@email.com - +39 333 8901234"
+        },
+        {
+          "title": "Harry Potter and the Philosopher's Stone",
+          "isbn": "978-0747532699",
+          "year": 1997,
+          "branch": "Fantasy",
+          "quality": "excellent",
+          "price": 15.99,
+          "contact": "Pietro Gallo - pietro@email.com - +39 333 9012345"
+        },
+        {
+          "title": "The Lord of the Rings",
+          "isbn": "978-0544003415",
+          "year": 1954,
+          "branch": "Fantasy Epic",
+          "quality": "good",
+          "price": 21.99,
+          "contact": "Ilaria Neri - ilaria@email.com - +39 333 0123456"
+        },
+        {
+          "title": "Brave New World",
+          "isbn": "978-0060085260",
+          "year": 1932,
+          "branch": "Dystopian",
+          "quality": "excellent",
+          "price": 14.99,
+          "contact": "Tommaso Ferraro - tommaso@email.com - +39 333 1234567"
+        },
+        {
+          "title": "The Great Gatsby (Second Copy)",
+          "isbn": "978-0143107217",
+          "year": 1925,
+          "branch": "Classic Fiction",
+          "quality": "good",
+          "price": 13.99,
+          "contact": "Alessandra Bianchi - alessandra@email.com - +39 333 2345678"
+        },
+        {
+          "title": "Frankenstein",
+          "isbn": "978-0141439471",
+          "year": 1818,
+          "branch": "Gothic Horror",
+          "quality": "fair",
+          "price": 12.50,
+          "contact": "Daniele Martino - daniele@email.com - +39 333 3456789"
+        },
+        {
+          "title": "The Count of Monte Cristo",
+          "isbn": "978-0140449266",
+          "year": 1844,
+          "branch": "Adventure",
+          "quality": "good",
+          "price": 17.99,
+          "contact": "Federica Rossi - federica@email.com - +39 333 4567890"
+        },
+        {
+          "title": "Dracula",
+          "isbn": "978-0141439846",
+          "year": 1897,
+          "branch": "Horror",
+          "quality": "excellent",
+          "price": 15.99,
+          "contact": "Matteo Greco - matteo@email.com - +39 333 5678901"
+        },
+        {
+          "title": "The Invisible Man",
+          "isbn": "978-0140062021",
+          "year": 1897,
+          "branch": "Science Fiction",
+          "quality": "good",
+          "price": 13.99,
+          "contact": "Gabriella Conte - gabriella@email.com - +39 333 6789012"
+        },
+        {
+          "title": "Dune",
+          "isbn": "978-0441172719",
+          "year": 1965,
+          "branch": "Science Fiction",
+          "quality": "excellent",
+          "price": 18.99,
+          "contact": "Riccardo Marino - riccardo@email.com - +39 333 7890123"
+        },
+        {
+          "title": "Foundation",
+          "isbn": "978-0553293357",
+          "year": 1951,
+          "branch": "Science Fiction",
+          "quality": "good",
+          "price": 16.99,
+          "contact": "Simona Lombardi - simona@email.com - +39 333 8901234"
+        },
+        {
+          "title": "The Time Machine",
+          "isbn": "978-0140062014",
+          "year": 1895,
+          "branch": "Science Fiction",
+          "quality": "fair",
+          "price": 11.99,
+          "contact": "Enrico Romano - enrico@email.com - +39 333 9012345"
+        }
+      ]
+    },
+    {
+      "name": "Scienza & Tecnologia",
+      "books": [
+        {
+          "title": "A Brief History of Time",
+          "isbn": "978-0553380163",
+          "year": 1988,
+          "branch": "Physics",
+          "quality": "fair",
+          "price": 18.75,
+          "contact": "Paolo Bianchi - paolo@email.com - +39 333 3456789"
+        },
+        {
+          "title": "The Selfish Gene",
+          "isbn": "978-0192860925",
+          "year": 1976,
+          "branch": "Biology",
+          "quality": "good",
+          "price": 14.99,
+          "contact": "Lucia Ferrari - lucia@email.com - +39 333 4567890"
+        }
+      ]
+    },
+    {
+      "name": "Storia",
+      "books": [
+        {
+          "title": "Sapiens",
+          "isbn": "978-0062316097",
+          "year": 2011,
+          "branch": "World History",
+          "quality": "excellent",
+          "price": 22.00,
+          "contact": "Marco Verdi - marco@email.com - +39 333 5678901"
+        },
+        {"title": "Sapiens",
+          "isbn": "978-0062316097",
+          "year": 2011,
+          "branch": "World History",
+          "quality": "poor",
+          "price": 10.00,
+          "contact": "Marco Verdi - marco@email.com - +39 333 5678901"
+        }
+      ]
+    }
+  ]
+}

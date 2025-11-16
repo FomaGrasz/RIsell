@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIsell! - rivendi i tuoi libri!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Add your logo PNG as `logo.png` in this folder -->
+        <img src="logo.png" alt="RIsell logo" class="site-logo">
+        <header>
+            <h1>RIsell!</h1>
+            <p>demo del sito per la rivendità dei libri</p>
+        </header>
+        
+        <div class="search-bar">
+            <input 
+                type="text" 
+                id="search-input" 
+                placeholder="🔍 cerca per titolo, isbn o sezione"
+                aria-label="Search books"
+            >
+            <button id="clear-search" class="clear-btn" aria-label="Clear search">✕</button>
+        </div>
+        
+        <main id="tables-container">
+            <!-- Tables will be dynamically generated here -->
+        </main>
+        
+        <div class="sell-book-section">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8HTD9yvBa_bLhOEVLoWGYOVUQx4RJR8qL0l0utA4UipMhGA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="sell-button">
+                📖 Vendi il tuo libro
+            </a>
+        </div>
+        
+        <footer>
+            <p>&copy; licenza libera, RIsell! by Foma Grasz </p>
+            <div class="footer-links">
+                <a href="#" id="privacy-link">Trattamento dei dati</a>
+                <a href="#" id="about-link">Chi siamo</a>
+                <!-- dopo a scrivere "href= "link" per impostare un collegamento. Vi consiglio caldamente di redimere un trattamento dati, il sito di per se non ne raccoglie -->
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

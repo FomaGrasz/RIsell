@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Solid background requested by user */
+    background: #1D3461;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* allow absolutely positioned logo inside */
+    padding-top: 90px; /* reserve space so logo doesn't overlap content */
+}
+
+/* Logo positioned inside the container (top-left). Place `logo.png` in the same folder. */
+.site-logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 64px;
+    height: auto;
+    z-index: 1000;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-top: 80px; /* slightly smaller on small screens */
+    }
+
+    .site-logo {
+        width: 48px;
+        left: 12px;
+        top: 12px;
+    }
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.search-bar {
+    background: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-out;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.search-bar input::placeholder {
+    color: #999;
+}
+
+.clear-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #999;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.2s ease;
+}
+
+.clear-btn:hover {
+    color: #667eea;
+}
+
+.clear-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+main {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-title {
+    background: #376996;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #667eea;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.2s ease;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.contact-info {
+    color: #667eea;
+    font-weight: 500;
+}
+
+.branch-cell {
+    color: #376996;
+    font-weight: 600;
+}
+
+.quality-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: center;
+    min-width: 80px;
+}
+
+.quality-excellent {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.quality-good {
+    background-color: #cfe2ff;
+    color: #084298;
+}
+
+.quality-fair {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+.quality-poor {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.price {
+    font-weight: 600;
+    color: #28a745;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.footer-links {
+    margin-top: 8px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 0.95em;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    /* Mobile optimizations */
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    header {
+        padding: 12px 0;
+        margin-bottom: 20px;
+    }
+
+    /* Make logo behave inside header on small screens */
+    .site-logo {
+        position: relative;
+        display: block;
+        margin: 0 auto 12px auto;
+        left: auto;
+        top: auto;
+        width: 56px;
+    }
+
+    /* Search bar comfortably tappable */
+    .search-bar {
+        padding: 10px 14px;
+        margin-bottom: 18px;
+        border-radius: 14px;
+    }
+
+    .search-bar input {
+        font-size: 1.05em;
+    }
+
+    /* Tables: keep compact and scrollable */
+    table {
+        font-size: 0.9em;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px 8px;
+    }
+
+    .section-title {
+        padding: 12px;
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    /* Make Sell button full width and easy to tap */
+    .sell-button {
+        width: 100%;
+        padding: 14px 18px;
+        font-size: 1.05em;
+        border-radius: 12px;
+        display: block;
+    }
+
+    .sell-book-section {
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    /* Make footer links stack vertically */
+    .footer-links {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+}
+
+.no-data {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    color: #999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button {
+    padding: 8px 12px;
+    border: 1px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+    background: #667eea;
+    color: white;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination .current-page {
+    padding: 8px 12px;
+    background: #667eea;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.sell-book-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.sell-button {
+    display: inline-block;
+    padding: 18px 50px;
+    background: #F4D35E;
+    color: #1D3461; /* darker text for contrast */
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+
+/* Removed hover/active animations per request */
+.sell-button:hover,
+.sell-button:active {
+    transform: none;
+    box-shadow: none;
+}
