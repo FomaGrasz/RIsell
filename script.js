@@ -421,9 +421,9 @@ function createSectionTable(section) {
         qualityBadge.className = `quality-badge quality-${book.quality.toLowerCase()}`;
         const qualityMap = {
             'excellent': 'Eccellente',
-            'good': 'Buono',
-            'fair': 'Discreto',
-            'poor': 'Scarso'
+            'good': 'Buona',
+            'fair': 'Discreta',
+            'poor': 'Scarsa'
         };
         qualityBadge.textContent = qualityMap[book.quality.toLowerCase()] || book.quality;
         qualityCell.appendChild(qualityBadge);
