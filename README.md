@@ -1,14 +1,21 @@
-# RIsell! - Book Resale Platform
+# RIsell! - sistema per la rivendità scolastica di libri usati
 
-A simple, elegant website for displaying and managing used book inventory organized by sections.
+una soluzione semplice per gestire la rivendita dei libri nelle scuole, senza bisogno di avere sistemi di login (e tutti i problemi di sicurezza dei dati)
 
 ## Features
 
-✨ **Dynamic Table Generation** - Tables are automatically generated from `data.json`
-📚 **Organized by Sections** - Each section in the JSON creates its own table
-🎨 **Modern Design** - Beautiful gradient backgrounds and responsive layout
-📱 **Mobile Responsive** - Works great on all device sizes
-🏷️ **Quality Badges** - Visual indicators for book condition (Excellent, Good, Fair, Poor)
+✨ **Sistema (quasi) automatico** - le tabelle di vendita sono completate tramite `data.json`
+
+✨ **Sistema di ricerca** - facilità la ricerca del libro necessario per titolo, isbn e sezione
+
+📚 **In sezioni** - ogni sezione ha una sua tabella di vendita
+
+🎨 **Design pulito e moderno** - con Colori non impattanti sull'occhio
+
+🏷️ **intuitiva** - indicatori visivi aiutano l'utente a trovare il prodotto richiesto
+
+📱 **Ottimizzato per telefono** - Funziona bene su tutti quanti i dispositivi in generale
+
 
 ## Project Structure
 
@@ -21,9 +28,9 @@ presito/
 └── README.md        # This file
 ```
 
-## Data Format
+## formato dei dati
 
-The `data.json` file contains sections of books with the following structure:
+il `data.json` usa la seguente struttura per la categorizzaizone delle sezioni e dei libri:
 
 ```json
 {
@@ -46,63 +53,55 @@ The `data.json` file contains sections of books with the following structure:
 }
 ```
 
-## How to Use
+## come vedere sul proprio dispositivo
 
-1. **Open the website**: Open `index.html` in your web browser
-2. **Add new books**: Edit `data.json` and add new book entries to any section
-3. **Create new sections**: Add a new section object to the `sections` array in `data.json`
-4. **Refresh the page**: The tables will automatically update when you refresh the browser
+1. eseguire il comando "cd (posizione della cartella di risell)" e poi "py -m http.server 8000 " questo creera un server locale visibile solo a voi
+2. **visualizzare il sito**: aprite "http://localhost:8000/" nel browser
+3. **modificare i libri e le sezioni**: modificando il `data.json`   
+4. **Refresh**: le tabelle verranno aggiornate
+   
+## colonne
 
-## Table Columns
+- **titolo** - titolo del libro
+- **ISBN** - codice ISBN a 13 caratteri
+- **Anno** - dell'anno di frequenza
+- **categoria** - Materia
+- **qualità** - Condizioni (eccellenti/buona/discreto/scarso)
+- **Prezzo** - Selling price in euros (€)
+- **Contatto** - Seller contact information
 
-- **Title** - Book title
-- **ISBN** - ISBN-13 code
-- **Year** - Publication year
-- **Branch** - Book category or subject area
-- **Quality** - Condition badge (Excellent/Good/Fair/Poor)
-- **Price** - Selling price in euros (€)
-- **Contact** - Seller contact information
+## Customizzazione
 
-## Customization
+### Colori
+potete cambiare i colori in `styles.css`:
 
-### Colors
-Edit the color scheme in `styles.css`:
-- Gradient colors in `background: linear-gradient()`
-- Border colors and accent colors in theme variables
 
-### Quality Badges
-Modify quality styles in `styles.css`:
-- `.quality-excellent` - Green
-- `.quality-good` - Blue
-- `.quality-fair` - Yellow
-- `.quality-poor` - Red
+### colori della qualità
+Modificali in `styles.css`:
+- `.quality-excellent` - verde
+- `.quality-good` - blu
+- `.quality-fair` - giallo
+- `.quality-poor` - rosso
 
 ### Layout
-Adjust responsive breakpoints and spacing in `styles.css` media queries.
+è tutto modificabile in `styles.css`. la spaziatura può essere ridefinita-
+è possibile aggiungere il proprio logo aggiungendo un file chiamato 'logo.png'
 
-## Running Locally
-
-If you want to run this with a local server:
-
-### Using Python 3
-```bash
-python3 -m http.server 8000
-```
-
-### Using Node.js (http-server)
-```bash
-npx http-server
-```
-
-Then open `http://localhost:8000` in your browser.
-
-## Browser Compatibility
+## Compatibilità
 
 - Chrome/Edge: ✅ Full support
 - Firefox: ✅ Full support
 - Safari: ✅ Full support
-- IE11: ❌ Not supported (uses modern CSS and JavaScript)
 
-## License
+### bottone di vendita
+L'unico in grado di postare i libri in vendita è chi ha accesso al file 'data.json'. vi consiglio di collegare il bottone a un form google/microsoft, dalla quale poi li approvate e li trasferite sul sito.
 
-Free to use and modify for personal projects.
+### raccolta dati
+il sito non raccoglie nessun dato nella sua versione attuale. è comunque vivamente consigliato compilare un informativa
+sul trattamento della privacy e collegarla nel file 'index.html' nell'apposita sezione.
+
+## Licenza
+Libero uso di qualsiasi componente che troviate nella repository. Detto onestamente, ho usato in gran parte chatgpt per velocizzarmi il lavoro.
+Se riutilizzate papale papale fatemelo sapere e datemi i crediti :).
+
+per qualsiasi domanda, siete liberi di contattarmi
