@@ -266,35 +266,64 @@ if (document.readyState === 'loading') {
 function setupSearch() {
     const searchInput = document.getElementById('search-input');
     const clearBtn = document.getElementById('clear-search');
+    
+    // Also setup menu search
+    const menuSearchInput = document.getElementById('menu-search-input');
+    const menuClearBtn = document.getElementById('menu-clear-search');
 
-    if (!searchInput) return;
+    // Setup original search bar
+    if (searchInput) {
+        function updateClearBtn() {
+            clearBtn.disabled = searchInput.value.trim() === '';
+        }
 
-    // Enable/disable clear button
-    function updateClearBtn() {
-        clearBtn.disabled = searchInput.value.trim() === '';
+        searchInput.addEventListener('input', (e) => {
+            updateClearBtn();
+            const query = e.target.value.toLowerCase().trim();
+            if (query === '') {
+                renderTables(allData);
+            } else {
+                const filtered = filterBooks(allData, query);
+                renderTables(filtered);
+            }
+        });
+
+        clearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            updateClearBtn();
+            renderTables(allData);
+            searchInput.focus();
+        });
+
+        updateClearBtn();
     }
 
-    // Handle search input
-    searchInput.addEventListener('input', (e) => {
-        updateClearBtn();
-        const query = e.target.value.toLowerCase().trim();
-        if (query === '') {
-            renderTables(allData);
-        } else {
-            const filtered = filterBooks(allData, query);
-            renderTables(filtered);
+    // Setup menu search bar
+    if (menuSearchInput) {
+        function updateMenuClearBtn() {
+            menuClearBtn.disabled = menuSearchInput.value.trim() === '';
         }
-    });
 
-    // Clear search
-    clearBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        updateClearBtn();
-        renderTables(allData);
-        searchInput.focus();
-    });
+        menuSearchInput.addEventListener('input', (e) => {
+            updateMenuClearBtn();
+            const query = e.target.value.toLowerCase().trim();
+            if (query === '') {
+                renderTables(allData);
+            } else {
+                const filtered = filterBooks(allData, query);
+                renderTables(filtered);
+            }
+        });
 
-    updateClearBtn();
+        menuClearBtn.addEventListener('click', () => {
+            menuSearchInput.value = '';
+            updateMenuClearBtn();
+            renderTables(allData);
+            menuSearchInput.focus();
+        });
+
+        updateMenuClearBtn();
+    }
 }
 
 // Filter books based on search query (removed contact search)
@@ -427,3 +456,4 @@ if (document.readyState === 'loading') {
 } else {
     loadBooks();
 }
+
