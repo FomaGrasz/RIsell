@@ -62,11 +62,11 @@ il `data.json` usa la seguente struttura per la categorizzaizone delle sezioni e
    
 ## colonne
 
-- **titolo** - Book title
+- **titolo** - titolo del libro
 - **ISBN** - codice ISBN a 13 caratteri
 - **Anno** - dell'anno di frequenza
 - **categoria** - Materia
-- **qualità** - Condition badge (Excellent/Good/Fair/Poor)
+- **qualità** - Condizioni (eccellenti/buona/discreto/scarso)
 - **Prezzo** - Selling price in euros (€)
 - **Contatto** - Seller contact information
 
