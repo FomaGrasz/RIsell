@@ -1,6 +1,6 @@
 ### QUESTO E' UNA BOZZA DELL'INFORMATIVA SUL TRATTAMENTO DEI DATI. NON E' DEFINITIVA ###
 
-##1. Tipologia di dati trattati##
+###1. Tipologia di dati trattati###
 Su questo sito **non** vengono utilizzati cookie di profilazione né strumenti di tracciamento di terze parti.
 I dati raccolti sono esclusivamente quelli necessari per finalizzare la vendita, ed essi vengono forniti volontariamente dagli utenti che intendono vendere.
 i cookies possono venir raccolti dall'organizzazione "github", alla quale il sito si appoggia.
