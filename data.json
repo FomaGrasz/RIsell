@@ -10,7 +10,7 @@
           "branch": "Lingua spagnola",
           "quality": "excellent",
           "price": 18.00,
-          "contact": "Elena Ruiz - elena@email.com - +39 333 1111111"
+          "contact": "potrete inserire qui qualsiasi tipo di contatto che volete"
         },
         {
           "title": "Gramática de uso del español",
@@ -28,7 +28,7 @@
           "branch": "Didattica",
           "quality": "good",
           "price": 12.50,
-          "contact": "Carlos Ortega - carlos@email.com - +39 333 2222222"
+          "contact": "Andrei Acasa - andrei@email.com - +39 333 2222222"
         }
       ]
     },
@@ -65,7 +65,7 @@
           "branch": "Lingua russa",
           "quality": "excellent",
           "price": 17.50,
-          "contact": "Natalia Ivanova - natalia@email.com - +39 333 5555555"
+          "contact": "Sabina Fagiolo - natalia@email.com - +39 333 5555555"
         },
         {
           "title": "Grammatica Russa Moderna",
@@ -74,7 +74,7 @@
           "branch": "Grammatica",
           "quality": "fair",
           "price": 9.00,
-          "contact": "Sergei Petrov - sergei@email.com - +39 333 6666666"
+          "contact": "Marica Pesce - marica@email.com - +39 333 6666666"
         }
       ]
     },
@@ -97,7 +97,7 @@
           "branch": "Grammatica",
           "quality": "good",
           "price": 14.00,
-          "contact": "Nikos Stavros - nikos@email.com - +39 333 8888888"
+          "contact": "Felice Buonanno - felice@email.com - +39 333 8888888"
         }
       ]
     },
