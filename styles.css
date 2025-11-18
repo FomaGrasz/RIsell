@@ -498,12 +498,12 @@ footer {
         padding: 0 10px;
     }
 
-    /* Make footer links stack vertically */
-    .footer-links {
-        flex-direction: column;
-        gap: 8px;
-        align-items: center;
+.footer-links {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
     }
+
 }
 
 /* Mobile menu behavior: show links and search bar visibly on narrow screens */
