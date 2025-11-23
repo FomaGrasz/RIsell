@@ -13,7 +13,7 @@ Eventuali dati tecnici di navigazione (come indirizzo IP o user-agent) possono e
 Il trattamento dei dati (se presenti) avviene sulla base dell’interesse legittimo del titolare (mantenere la sicurezza e il funzionamento del sito), ma senza profilazione o uso di cookie non necessari.
 
 **4. Conservazione dei dati**
-Eventuali dati tecnici temporanei (es. log di accesso) saranno conservati per il tempo strettamente necessario al fine di garantire la sicurezza del sito.
+Eventuali dati tecnici temporanei (es. log di accesso) saranno conservati per il tempo strettamente necessario al fine di garantire la sicurezza del sito (vedere l'informativa sulla privacy di Github).
 Non viene effettuato un trattamento continuativo per profilazione.
 
 **5. Comunicazione dei dati**
@@ -38,3 +38,6 @@ Questa informativa può essere aggiornata nel tempo. In caso di modifiche sostan
 
 **9. Ulteriori informazioni**
 Per qualsiasi domanda relativa alla privacy, al trattamento dei dati o ai diritti su questi dati, puoi contattare il titolare all’indirizzo e-mail "tommygrassomg@icloud".
+
+
+p.s. verranno aggiunte sede legale e altre modalità di contatto appena possibile.
