@@ -7,7 +7,7 @@
           "title": "Gramática de uso del español",
           "isbn": "978-8484432541",
           "year": 2020,
-          "branch": "Lingua spagnola",
+          "branch": "Spagnolo",
           "quality": "excellent",
           "price": 18.00,
           "contact": "potrete inserire qui qualsiasi tipo di contatto che volete"
@@ -16,7 +16,7 @@
           "title": "Gramática de uso del español",
           "isbn": "978-8484432541",
           "year": 2020,
-          "branch": "Lingua spagnola",
+          "branch": "Spagnolo",
           "quality": "poor",
           "price": 11.00,
           "contact": "Filippo Argenti - elena@email.com - +39 333 1111111"
@@ -25,7 +25,7 @@
           "title": "Métodos de español A2-B1",
           "isbn": "978-8497782345",
           "year": 2019,
-          "branch": "Didattica",
+          "branch": "Spagnolo",
           "quality": "good",
           "price": 12.50,
           "contact": "Andrei Acasa - andrei@email.com - +39 333 2222222"
@@ -39,7 +39,7 @@
           "title": "Lingua Latina per se Illustrata – Familia Romana",
           "isbn": "978-1585104208",
           "year": 2016,
-          "branch": "Latino base",
+          "branch": "Latino",
           "quality": "excellent",
           "price": 20.00,
           "contact": "Giulia Conti - giulia@email.com - +39 333 3333333"
@@ -62,7 +62,7 @@
           "title": "Corso di Russo – Livello A1/A2",
           "isbn": "978-8869871234",
           "year": 2021,
-          "branch": "Lingua russa",
+          "branch": "Russo",
           "quality": "excellent",
           "price": 17.50,
           "contact": "Sabina Fagiolo - natalia@email.com - +39 333 5555555"
@@ -71,7 +71,7 @@
           "title": "Grammatica Russa Moderna",
           "isbn": "978-5421234567",
           "year": 2018,
-          "branch": "Grammatica",
+          "branch": "Russo",
           "quality": "fair",
           "price": 9.00,
           "contact": "Marica Pesce - marica@email.com - +39 333 6666666"
@@ -94,7 +94,7 @@
           "title": "Grammatica di Greco Antico",
           "isbn": "978-8800207315",
           "year": 2020,
-          "branch": "Grammatica",
+          "branch": "Greco antico",
           "quality": "good",
           "price": 14.00,
           "contact": "Felice Buonanno - felice@email.com - +39 333 8888888"
@@ -108,7 +108,7 @@
           "title": "Il Mondo Antico – Storia per il Liceo",
           "isbn": "978-8800321103",
           "year": 2021,
-          "branch": "Antichità",
+          "branch": "storia",
           "quality": "excellent",
           "price": 19.00,
           "contact": "Marco Verdi - marco@email.com - +39 333 5678901"
@@ -117,7 +117,7 @@
           "title": "Storia Contemporanea 1815–Oggi",
           "isbn": "978-8800208893",
           "year": 2022,
-          "branch": "Contemporanea",
+          "branch": "storia",
           "quality": "good",
           "price": 15.00,
           "contact": "Sara Bianchi - sara@email.com - +39 333 9999999"
